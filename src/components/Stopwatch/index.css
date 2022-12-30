@@ -1,0 +1,90 @@
+/* Write CSS here */
+.bg-img {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 80px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0px 4px 16px 0px;
+}
+
+.img-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.img-of-time {
+  height: 30px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.timer-text {
+  font-family: Roboto;
+  font-size: 18px;
+  color: black;
+  align-self: center;
+}
+.heading-timer {
+  font-family: Roboto;
+  font-size: 45px;
+  color: black;
+  margin-bottom: 35px;
+  margin-top: 0px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button {
+  width: 65px;
+  height: 30px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 7px;
+}
+
+.btn1 {
+  background-color: #1db05f;
+}
+.btn2 {
+  background-color: #ef0d36;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn3 {
+  background-color: #eaa800;
+}
+
+@media (max-width: 767px) {
+  .bg-img {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  }
+}
